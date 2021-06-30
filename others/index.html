@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git | YURH</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.e4d8b86b.css" as="style"><link rel="preload" href="/assets/js/app.449c9e7a.js" as="script"><link rel="preload" href="/assets/js/2.7ea52c75.js" as="script"><link rel="preload" href="/assets/js/9.3de102a3.js" as="script"><link rel="prefetch" href="/assets/js/10.ffd4540e.js"><link rel="prefetch" href="/assets/js/3.daf233ae.js"><link rel="prefetch" href="/assets/js/4.ba3164ba.js"><link rel="prefetch" href="/assets/js/5.75a3592b.js"><link rel="prefetch" href="/assets/js/6.0377ba0c.js"><link rel="prefetch" href="/assets/js/7.e59ee139.js"><link rel="prefetch" href="/assets/js/8.8e47c2ff.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e4d8b86b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">YURH</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/js/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="https://github.com/yuruihuaa" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/js/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="https://github.com/yuruihuaa" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git"><a href="#git" class="header-anchor">#</a> Git</h1> <h2 id="集中式和分布式"><a href="#集中式和分布式" class="header-anchor">#</a> 集中式和分布式</h2> <p>集中式：SVN</p> <p>分布式：GIT</p> <h2 id="配置"><a href="#配置" class="header-anchor">#</a> 配置</h2> <p>全局配置，修改了~/.gitconfig</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> config --global user.name <span class="token string">'name'</span>
+<span class="token function">git</span> config --global user.email <span class="token string">'name@outlook.com'</span>
+</code></pre></div><p>局部配置，--local可以省略</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> config --local user.name <span class="token string">'name'</span>
+<span class="token function">git</span> config --local user.email <span class="token string">'name@outlook.com'</span>
+</code></pre></div><h2 id="基本操作"><a href="#基本操作" class="header-anchor">#</a> 基本操作</h2> <p>创建仓库，新增.git文件夹，.git/config是这个仓库的配置文件</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> init
+</code></pre></div><p>touch命令新建空白文件，file.js状态是Untracked未追踪，没有被git追踪</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">touch</span> file.js
+</code></pre></div><p>执行git add后，文件被放入暂存区，状态是Changes to be committed，等待被提交</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> <span class="token function">add</span> file.js  一个文件进入暂存区
+<span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>   所有文件进入暂存区
+</code></pre></div><p>执行git commit后，提交到版本库</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> commit -m <span class="token string">&quot;Commit描述&quot;</span>
+<span class="token function">git</span> commit
+</code></pre></div><p>修改file.js文件，file.js文件被修改，状态变成Changes not staged for commit</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> status
+</code></pre></div><p>.gitignore文件，告诉Git哪些文件不需要加入版本管理中</p> <div class="language- extra-class"><pre class="language-text"><code>*.txt   忽略所有的文本文件
+！file.txt  除了file.txt文件
+/node_modules 忽略文件夹
+</code></pre></div><p>执行git rm后，file.js从版本库和本地删除，加--cached参数时，只从版本库删除，本地保留，file.js状态变成Untracked</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> <span class="token function">rm</span> file.js
+<span class="token function">git</span> <span class="token function">rm</span> --cached file.js
+</code></pre></div><p>git mv修改文件名</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> <span class="token function">mv</span> file.js file.txt
+</code></pre></div><p>git log查看历史提交</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> log
+<span class="token function">git</span> log -p 显示详细内容
+<span class="token function">git</span> log -2 查看两条
+<span class="token function">git</span> log --oneline 显示一行信息
+<span class="token function">git</span> log --name-only 只看有变化的文件
+<span class="token function">git</span> log --name-status 查看变化的文件是新增还是修改
+</code></pre></div><p>git commit --amend修改最新一次Commit描述，如果暂存区如果有内容，执行命令后，暂存区的内容也一起提交到这次commit</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> commit --amend 
+</code></pre></div><p>撤销，git restore丢弃修改，同git checkout，git restore --staged将文件从暂存区撤回工作区，撤销git add</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> restore --staged file.txt
+<span class="token function">git</span> restore file.txt
+</code></pre></div><p>给命令加别名，git s查看仓库状态</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> config --global alias.s status
+</code></pre></div><h2 id="分支操作"><a href="#分支操作" class="header-anchor">#</a> 分支操作</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> branch BranchName  新建Name分支
+<span class="token function">git</span> branch  查看分支
+<span class="token function">git</span> checkout BranchName  切换分支
+<span class="token function">git</span> checkout -b BranchName 新建并切换到BranchName
+<span class="token function">git</span> merge BranchName  位于当前分支，合并BranchName分支到当前分支
+<span class="token function">git</span> branch -d BranchName 删除BranchName分支
+</code></pre></div><p>分支冲突，不同的分支修改同一个资源，合并时产生冲突，修复冲突后add，commit，如冲突</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+content1
+=======
+content2
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; Branch1
+</code></pre></div><p>--merged查看已经合并到当前分支的分支列表，合并过的分支通常可以删除，--no-merged查看没有合并到当前分支的分支，慎重删除，如果删除没有合并的分支，会提示</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> branch --merged
+<span class="token function">git</span> branch --no-merged
+Branch2
+<span class="token function">git</span> branch -d Branch2
+error: The branch <span class="token string">'Branch2'</span> is not fully merged.
+If you are sure you want to delete it, run <span class="token string">'git branch -D Branch2'</span><span class="token builtin class-name">.</span>
+</code></pre></div><p>一般master作为稳定分支，然后有一个develop分支作为开发分支，如果添加新功能，会基于develop分支新建功能分支，功能分支完成后合并到develop分支，develop分支测试通过后，合并到稳定的master分支</p> <p>在当前分支工作，想切换到其他分支，在当前分支使用git stash临时存储，新增的文件因为不被git管理，git stash对新文件无效</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> stash
+<span class="token function">git</span> stash list
+<span class="token function">git</span> stash apply  不删
+<span class="token function">git</span> stash pop  删
+<span class="token function">git</span> stash drop
+</code></pre></div><p>打标签，如版本号，一般只有稳定的版本才打上标签</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> tag  显示所有的标签
+<span class="token function">git</span> tag v1.0 打标签
+</code></pre></div><p>生成zip、tar压缩包发布代码，打包master分支</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> archive --format<span class="token operator">=</span>zip --prefix<span class="token operator">=</span>git-docs/ master <span class="token operator">&gt;</span> git-1.4.0-docs.zip
+</code></pre></div><p>从master分支新建一个子分支用于开发，在子分支完成工作后，这是master分支有新的commit，即master分支往前走了，此时在master分支执行merge子分支时提示冲突，并产生一次新的merge commit，解决方法时在子分支执行git rebase，修改子分支的基础点位master新commit，可能会产生冲突，由子分支的开发者处理，然后再在master分支执行git merge</p> <p>这种情况和master分支和子分支共同修改同一个文件是不同的</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> rebase master
+</code></pre></div><h2 id="远程仓库"><a href="#远程仓库" class="header-anchor">#</a> 远程仓库</h2> <p>GitHub国外代码托管平台</p> <div class="language-shell extra-class"><pre class="language-shell"><code>ssh-keygen -r rsa  生成密钥 公钥/私钥
+</code></pre></div><p>本地分支与远程分支关联</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> remote <span class="token function">add</span> origin git@github.com:XX/XX.git  添加远程仓库，并起名origin
+<span class="token function">git</span> remote -v 显示所有远程仓库
+<span class="token function">git</span> push origin 将当前分支推送到origin对应分支
+<span class="token function">git</span> push origin master 将本地的master分支推送到origin主机
+<span class="token function">git</span> push -u origin master  将本地的master分支推送到origin主机，同时指定origin为默认主机
+<span class="token function">git</span> branch -a 显示所有的本地和远程分支
+
+<span class="token function">git</span> branch --set-upstream-to<span class="token operator">=</span><span class="token operator">&lt;</span>remote<span class="token operator">&gt;</span>/<span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> master 为本地分支master添加上游分支，即添加远程分支
+
+<span class="token function">git</span> pull origin BranchName:BranchName 本地没有BranchName分支，从远程拉去BranchName，并在本地新建BranchName
+
+<span class="token function">git</span> push origin --delete BranchName
+<span class="token function">git</span> push origin -d BranchName 删除远程分支BranchName
+<span class="token function">git</span> branch -d BranchName 删除本地分支BranchName
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.449c9e7a.js" defer></script><script src="/assets/js/2.7ea52c75.js" defer></script><script src="/assets/js/9.3de102a3.js" defer></script>
+  </body>
+</html>
